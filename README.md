@@ -11,7 +11,7 @@ This is a simple Streamlit web application that predicts the winning probability
 
 ## 🚀 Live Demo
 
-
+[Try it Here!](https://tata-ipl-prediction.streamlit.app/)
 
 ## 🖥️ Screenshots
 
