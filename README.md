@@ -11,7 +11,7 @@ This is a simple Streamlit web application that predicts the winning probability
 
 ## 🚀 Live Demo
 
-[Add your deployed Streamlit link here, e.g. via Streamlit Community Cloud or another hosting service]
+
 
 ## 🖥️ Screenshots
 
@@ -31,33 +31,53 @@ This is a simple Streamlit web application that predicts the winning probability
 ```bash
 git clone https://github.com/bharthdev-05/ipl-win-predictor.git
 cd ipl-win-predictor
+```
 
 2. **Create virtual environment (optional but recommended)**
 
 ```bash
 python -m venv venv
-source venv/bin/activat
+# On Unix or MacOS
+source venv/bin/activate
+# On Windows
+venv\Scripts\activate
+```
 
 3. **Install dependencies**
 
 ```bash
 pip install -r requirements.txt
+```
 
 4. **Run the app**
 
 ```bash
 streamlit run app.py
+```
 
-🧠 Future Improvements
-Add match visualization charts (run rate comparison, momentum graph)
-Deploy using Streamlit Cloud / AWS / Heroku
-Live data integration via API
-Add T20 leagues from other countries
+## 📊 How It Works
 
-🙌 Acknowledgements
-Kaggle IPL datasets
-Streamlit Docs
-Scikit-learn & Pandas
+The app takes match context as input (runs, overs, wickets, etc.) and uses a pre-trained machine learning model to predict the win probability. It is trained on historical IPL match data with features engineered to represent real-time match momentum.
 
-📬 Contact
+## 🧠 Future Improvements
+
+- Add match visualization charts (run rate comparison, momentum graph)
+- Deploy using Streamlit Cloud / AWS / Heroku
+- Live data integration via API
+- Add T20 leagues from other countries
+
+## 🙌 Acknowledgements
+
+- [Kaggle IPL datasets](https://www.kaggle.com/datasets)
+- [Streamlit Docs](https://docs.streamlit.io/)
+- Scikit-learn & Pandas
+
+## 📬 Contact
+
 For questions, suggestions, or feedback, feel free to reach out at [bharathsde05@gmail.com] or raise an issue.
+
+---
+
+⭐ If you like this project, give it a star and consider contributing!
+
+
